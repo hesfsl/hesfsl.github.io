@@ -11,23 +11,14 @@
         <h1 class="display-1">Deferred linking test</h1>
         
         <div class="alert alert-primary" role="alert">
-            The button below copies a token to your clipboard and redirects 
-            you to the company's mobile app if it is installed. If the app is 
-            not installed it should redirect you to the app store.
-        </div>
-
-        <div class="alert alert-primary" role="alert">
-            The token starts with "company:" so when pasting the content the 
-            app knows if it's a valid token or not discarding it if it's not.
-            <br /><br />
-            If the clipboard content is a a valid token the app submits it to
-            the server to be validated and eventually login the user.
+            The button below copies a token to your clipboard and navigates
+            to an example app on AppStore.
         </div>
 
         <hr/>
 
         <button type="button" class="btn btn-success" id="deferred-link" onclick="cta(true);">
-            Copy token and redirect
+            Copy token and navigate
         </button>
     </div>
     <script src="deferred-link.js"></script>

@@ -4,4 +4,6 @@ const pseudoToken =
 
 function cta(copyToken) {
   navigator.clipboard.writeText(copyToken);
+  window.location.href =
+    "https://apps.apple.com/br/app/f1-tv/id1315007279?l=en";
 }
